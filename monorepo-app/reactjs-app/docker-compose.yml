@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  react-app-docker-compose:
+    image: react-image-yc
+    ports:
+      - "3000:3000"
+
+  node-app-docker-compose:
+    image: myapp
+    ports:
+      - "3001:3001"
+    
